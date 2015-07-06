@@ -26,6 +26,8 @@
 		5DE0869F1B4B070F0009F8C2 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE086991B4B070F0009F8C2 /* RDVTabBarController.m */; };
 		5DE086A01B4B070F0009F8C2 /* RDVTabBarEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0869B1B4B070F0009F8C2 /* RDVTabBarEdge.m */; };
 		5DE086A11B4B070F0009F8C2 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0869D1B4B070F0009F8C2 /* RDVTabBarItem.m */; };
+		5DE086B11B4B0AA60009F8C2 /* camera_button_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE086AF1B4B0AA60009F8C2 /* camera_button_take.png */; };
+		5DE086B21B4B0AA60009F8C2 /* camera_button_take@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE086B01B4B0AA60009F8C2 /* camera_button_take@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		5DE0869B1B4B070F0009F8C2 /* RDVTabBarEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarEdge.m; sourceTree = "<group>"; };
 		5DE0869C1B4B070F0009F8C2 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
 		5DE0869D1B4B070F0009F8C2 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		5DE086AF1B4B0AA60009F8C2 /* camera_button_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button_take.png; sourceTree = "<group>"; };
+		5DE086B01B4B0AA60009F8C2 /* camera_button_take@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_button_take@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		5D8B07CE1B4ACF0D003B3560 = {
 			isa = PBXGroup;
 			children = (
+				5DE086AE1B4B0AA60009F8C2 /* img */,
 				5DE086951B4B070F0009F8C2 /* RDVTabBarController */,
 				5D8B08561B4AF32A003B3560 /* Assistant */,
 				5D8B08591B4AF32A003B3560 /* Constant */,
@@ -192,6 +197,15 @@
 			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
+		5DE086AE1B4B0AA60009F8C2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5DE086AF1B4B0AA60009F8C2 /* camera_button_take.png */,
+				5DE086B01B4B0AA60009F8C2 /* camera_button_take@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,10 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8B08741B4AF514003B3560 /* ENString.strings in Resources */,
+				5DE086B11B4B0AA60009F8C2 /* camera_button_take.png in Resources */,
 				5D8B08731B4AF514003B3560 /* CNString.strings in Resources */,
 				5D8B07EA1B4ACF0D003B3560 /* LaunchScreen.storyboard in Resources */,
 				5D8B07E71B4ACF0D003B3560 /* Assets.xcassets in Resources */,
 				5D8B08371B4AE8A4003B3560 /* RootViewController.xib in Resources */,
+				5DE086B21B4B0AA60009F8C2 /* camera_button_take@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
