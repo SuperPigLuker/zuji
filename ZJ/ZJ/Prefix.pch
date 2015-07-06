@@ -1,0 +1,15 @@
+//
+//  Prefix.h
+//  ZJ
+//
+//  Created by xueshouyang on 15/7/7.
+//  Copyright © 2015年 ZJ. All rights reserved.
+//
+
+#ifndef Prefix_h
+#define Prefix_h
+
+#import "Macro.h"
+#import "LanguageManager.h"
+
+#endif /* Prefix_h */
