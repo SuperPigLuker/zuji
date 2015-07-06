@@ -22,12 +22,12 @@
 		5D8B08701B4AF4A9003B3560 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B086F1B4AF4A9003B3560 /* LanguageManager.m */; };
 		5D8B08731B4AF514003B3560 /* CNString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B08711B4AF514003B3560 /* CNString.strings */; };
 		5D8B08741B4AF514003B3560 /* ENString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B08721B4AF514003B3560 /* ENString.strings */; };
-		5DE0868E1B4AF8B80009F8C2 /* camera_button_take@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0868C1B4AF8B80009F8C2 /* camera_button_take@2x.png */; };
-		5DE0868F1B4AF8B80009F8C2 /* camera_button_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0868D1B4AF8B80009F8C2 /* camera_button_take.png */; };
 		5DE0869E1B4B070F0009F8C2 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE086971B4B070F0009F8C2 /* RDVTabBar.m */; };
 		5DE0869F1B4B070F0009F8C2 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE086991B4B070F0009F8C2 /* RDVTabBarController.m */; };
 		5DE086A01B4B070F0009F8C2 /* RDVTabBarEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0869B1B4B070F0009F8C2 /* RDVTabBarEdge.m */; };
 		5DE086A11B4B070F0009F8C2 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0869D1B4B070F0009F8C2 /* RDVTabBarItem.m */; };
+		5DE086A91B4B08640009F8C2 /* camera_button_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE086A71B4B08640009F8C2 /* camera_button_take.png */; };
+		5DE086AA1B4B08640009F8C2 /* camera_button_take@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE086A81B4B08640009F8C2 /* camera_button_take@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +59,6 @@
 		5D8B086F1B4AF4A9003B3560 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
 		5D8B08711B4AF514003B3560 /* CNString.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = CNString.strings; sourceTree = "<group>"; };
 		5D8B08721B4AF514003B3560 /* ENString.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ENString.strings; sourceTree = "<group>"; };
-		5DE0868C1B4AF8B80009F8C2 /* camera_button_take@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_button_take@2x.png"; sourceTree = "<group>"; };
-		5DE0868D1B4AF8B80009F8C2 /* camera_button_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button_take.png; sourceTree = "<group>"; };
 		5DE086961B4B070F0009F8C2 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
 		5DE086971B4B070F0009F8C2 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
 		5DE086981B4B070F0009F8C2 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		5DE0869B1B4B070F0009F8C2 /* RDVTabBarEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarEdge.m; sourceTree = "<group>"; };
 		5DE0869C1B4B070F0009F8C2 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
 		5DE0869D1B4B070F0009F8C2 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		5DE086A71B4B08640009F8C2 /* camera_button_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button_take.png; sourceTree = "<group>"; };
+		5DE086A81B4B08640009F8C2 /* camera_button_take@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_button_take@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,8 @@
 		5D8B07CE1B4ACF0D003B3560 = {
 			isa = PBXGroup;
 			children = (
+				5DE086A71B4B08640009F8C2 /* camera_button_take.png */,
+				5DE086A81B4B08640009F8C2 /* camera_button_take@2x.png */,
 				5DE086951B4B070F0009F8C2 /* RDVTabBarController */,
 				5D8B08561B4AF32A003B3560 /* Assistant */,
 				5D8B08591B4AF32A003B3560 /* Constant */,
@@ -110,8 +112,6 @@
 				5D8B07DD1B4ACF0D003B3560 /* AppDelegate.h */,
 				5D8B07DE1B4ACF0D003B3560 /* AppDelegate.m */,
 				5D8B07E61B4ACF0D003B3560 /* Assets.xcassets */,
-				5DE0868C1B4AF8B80009F8C2 /* camera_button_take@2x.png */,
-				5DE0868D1B4AF8B80009F8C2 /* camera_button_take.png */,
 				5D8B07E81B4ACF0D003B3560 /* LaunchScreen.storyboard */,
 				5D8B07EB1B4ACF0D003B3560 /* Info.plist */,
 				5D8B07DA1B4ACF0D003B3560 /* Supporting Files */,
@@ -256,12 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8B08741B4AF514003B3560 /* ENString.strings in Resources */,
+				5DE086A91B4B08640009F8C2 /* camera_button_take.png in Resources */,
 				5D8B08731B4AF514003B3560 /* CNString.strings in Resources */,
 				5D8B07EA1B4ACF0D003B3560 /* LaunchScreen.storyboard in Resources */,
 				5D8B07E71B4ACF0D003B3560 /* Assets.xcassets in Resources */,
-				5DE0868F1B4AF8B80009F8C2 /* camera_button_take.png in Resources */,
-				5DE0868E1B4AF8B80009F8C2 /* camera_button_take@2x.png in Resources */,
 				5D8B08371B4AE8A4003B3560 /* RootViewController.xib in Resources */,
+				5DE086AA1B4B08640009F8C2 /* camera_button_take@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/zuji.git/trunk/ZJ/ZJ/Prefix.pch;
+				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/ZJ/ZJ/Prefix.pch;
 				INFOPLIST_FILE = ZJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/zuji.git/trunk/ZJ/ZJ/Prefix.pch;
+				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/ZJ/ZJ/Prefix.pch;
 				INFOPLIST_FILE = ZJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
