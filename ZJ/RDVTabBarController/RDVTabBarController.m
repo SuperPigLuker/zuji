@@ -48,10 +48,10 @@
 - (void)addEdage {
     _edge = [[RDVTabBarEdge alloc] init];
     [_edge setAutoresizingMask:(UIViewAutoresizingFlexibleWidth|
-                                                  UIViewAutoresizingFlexibleTopMargin|
-                                                  UIViewAutoresizingFlexibleLeftMargin|
-                                                  UIViewAutoresizingFlexibleRightMargin|
-                                                   UIViewAutoresizingFlexibleBottomMargin)];
+                                UIViewAutoresizingFlexibleTopMargin|
+                                UIViewAutoresizingFlexibleLeftMargin|
+                                UIViewAutoresizingFlexibleRightMargin|
+                                UIViewAutoresizingFlexibleBottomMargin)];
     _edge.backgroundColor = [UIColor clearColor];
     _edge.userInteractionEnabled = NO;
     [self.view addSubview:_edge];
@@ -166,7 +166,7 @@
             [viewController removeFromParentViewController];
         }
     }
-
+    
     if (viewControllers && [viewControllers isKindOfClass:[NSArray class]]) {
         _viewControllers = [viewControllers copy];
         
@@ -233,6 +233,7 @@
         CGFloat tabBarHeight = CGRectGetHeight([[weakSelf tabBar] frame]);
         CGFloat centerMarginY = 15.0;
         CGFloat midItemWidth = 40.0;
+        CGFloat edgeRadius = 40.0;
         if (!tabBarHeight) {
             tabBarHeight = 49;
         }
@@ -252,10 +253,11 @@
         [_midItem setFrame:CGRectMake(0, 0, midItemWidth, midItemWidth)];
         _midItem.center = CGPointMake(_tabBar.center.x, _tabBar.center.y - centerMarginY);
         
-        _edge.frame = CGRectMake(0, CGRectGetMinY(_tabBar.frame)-40, viewSize.width, 40);
-        _edge.circleCenter = CGPointMake(_tabBar.center.x, 80);
-        _edge.radius = 60;
-        
+        CGFloat centerY = _midItem.center.y - CGRectGetMinY(_tabBar.frame);
+        CGFloat edgeHeight = edgeRadius - centerY;
+        _edge.frame = CGRectMake(0, CGRectGetMinY(_tabBar.frame)-edgeHeight, viewSize.width, edgeHeight);
+        _edge.circleCenter = CGPointMake(_tabBar.center.x, edgeRadius);
+        _edge.radius = edgeRadius;
     };
     
     void (^completion)(BOOL) = ^(BOOL finished){

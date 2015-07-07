@@ -15,7 +15,7 @@
     NSLog(@"%@",NSStringFromCGRect(rect));
     CGFloat height = rect.size.height;
     CGFloat width = rect.size.width;
-    CGFloat startY = height - 1.0;
+    CGFloat startY = height - 0.5;
     CGFloat marginY = 1.0;
     CGFloat crossBeam = [self crossBeam];
     CGFloat startX = (width - crossBeam) / 2;
@@ -28,7 +28,7 @@
     //画弧
     CGContextClosePath(context);
     CGContextMoveToPoint(context, startX, startY);
-    CGContextAddArc(context, self.circleCenter.x, self.circleCenter.y, self.radius, M_PI, 0, 0);
+    CGContextAddArc(context, self.circleCenter.x, self.radius+1, self.radius, M_PI, 0, 0);
     CGContextMoveToPoint(context, (width + crossBeam) / 2 , startY);
     CGContextAddLineToPoint(context, width, startY);
     CGContextStrokePath(context);
