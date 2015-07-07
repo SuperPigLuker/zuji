@@ -228,7 +228,7 @@
     
     void (^block)() = ^{
         CGSize viewSize = weakSelf.view.bounds.size;
-        CGFloat tabBarStartingY = viewSize.height;
+        CGFloat tabBarStartingY = viewSize.height+50;//这里加50为的是让边缘线和tabbar同步隐藏
         CGFloat contentViewHeight = viewSize.height;
         CGFloat tabBarHeight = CGRectGetHeight([[weakSelf tabBar] frame]);
         CGFloat centerMarginY = 15.0;
@@ -250,14 +250,15 @@
         
         [[weakSelf tabBar] setFrame:CGRectMake(0, tabBarStartingY, viewSize.width, tabBarHeight)];
         [[weakSelf contentView] setFrame:CGRectMake(0, 0, viewSize.width, contentViewHeight)];
+        
         [_midItem setFrame:CGRectMake(0, 0, midItemWidth, midItemWidth)];
         _midItem.center = CGPointMake(_tabBar.center.x, _tabBar.center.y - centerMarginY);
-        
         CGFloat centerY = _midItem.center.y - CGRectGetMinY(_tabBar.frame);
         CGFloat edgeHeight = edgeRadius - centerY;
         _edge.frame = CGRectMake(0, CGRectGetMinY(_tabBar.frame)-edgeHeight, viewSize.width, edgeHeight);
         _edge.circleCenter = CGPointMake(_tabBar.center.x, edgeRadius);
         _edge.radius = edgeRadius;
+        
     };
     
     void (^completion)(BOOL) = ^(BOOL finished){

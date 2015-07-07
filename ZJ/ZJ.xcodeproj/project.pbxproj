@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D7959301B4C2FAE00D2B12A /* FootPrintEditVC_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79592F1B4C2FAE00D2B12A /* FootPrintEditVC_Constant.m */; };
+		5D7959341B4C308B00D2B12A /* FootPrintEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7959321B4C308B00D2B12A /* FootPrintEditVC.m */; };
+		5D7959351B4C308B00D2B12A /* FootPrintEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7959331B4C308B00D2B12A /* FootPrintEditVC.xib */; };
 		5D8B07DC1B4ACF0D003B3560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B07DB1B4ACF0D003B3560 /* main.m */; };
 		5D8B07DF1B4ACF0D003B3560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8B07DE1B4ACF0D003B3560 /* AppDelegate.m */; };
 		5D8B07E71B4ACF0D003B3560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B07E61B4ACF0D003B3560 /* Assets.xcassets */; };
@@ -31,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D79592E1B4C2FAE00D2B12A /* FootPrintEditVC_Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootPrintEditVC_Constant.h; sourceTree = "<group>"; };
+		5D79592F1B4C2FAE00D2B12A /* FootPrintEditVC_Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootPrintEditVC_Constant.m; sourceTree = "<group>"; };
+		5D7959311B4C308B00D2B12A /* FootPrintEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootPrintEditVC.h; sourceTree = "<group>"; };
+		5D7959321B4C308B00D2B12A /* FootPrintEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootPrintEditVC.m; sourceTree = "<group>"; };
+		5D7959331B4C308B00D2B12A /* FootPrintEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FootPrintEditVC.xib; sourceTree = "<group>"; };
 		5D8B07D71B4ACF0D003B3560 /* ZJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8B07DB1B4ACF0D003B3560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D8B07DD1B4ACF0D003B3560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,6 +151,9 @@
 				5D8B08331B4AE8A4003B3560 /* RootViewController.h */,
 				5D8B08341B4AE8A4003B3560 /* RootViewController.m */,
 				5D8B08351B4AE8A4003B3560 /* RootViewController.xib */,
+				5D7959311B4C308B00D2B12A /* FootPrintEditVC.h */,
+				5D7959321B4C308B00D2B12A /* FootPrintEditVC.m */,
+				5D7959331B4C308B00D2B12A /* FootPrintEditVC.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -165,6 +176,8 @@
 				5D8B085D1B4AF32A003B3560 /* RootVC_Constant.m */,
 				5D8B08681B4AF389003B3560 /* LanguageMangerConst.h */,
 				5D8B08691B4AF389003B3560 /* LanguageMangerConst.m */,
+				5D79592E1B4C2FAE00D2B12A /* FootPrintEditVC_Constant.h */,
+				5D79592F1B4C2FAE00D2B12A /* FootPrintEditVC_Constant.m */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -237,6 +250,7 @@
 				TargetAttributes = {
 					5D8B07D61B4ACF0D003B3560 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6QWUBC8L46;
 					};
 				};
 			};
@@ -263,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7959351B4C308B00D2B12A /* FootPrintEditVC.xib in Resources */,
 				5D8B08741B4AF514003B3560 /* ENString.strings in Resources */,
 				5DE086B11B4B0AA60009F8C2 /* camera_button_take.png in Resources */,
 				5D8B08731B4AF514003B3560 /* CNString.strings in Resources */,
@@ -280,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7959341B4C308B00D2B12A /* FootPrintEditVC.m in Sources */,
 				5D8B08651B4AF32A003B3560 /* RootVC_Constant.m in Sources */,
 				5D8B07DF1B4ACF0D003B3560 /* AppDelegate.m in Sources */,
 				5D8B07DC1B4ACF0D003B3560 /* main.m in Sources */,
@@ -288,6 +304,7 @@
 				5DE086A01B4B070F0009F8C2 /* RDVTabBarEdge.m in Sources */,
 				5D8B08701B4AF4A9003B3560 /* LanguageManager.m in Sources */,
 				5D8B08631B4AF32A003B3560 /* RootVC_AS.m in Sources */,
+				5D7959301B4C2FAE00D2B12A /* FootPrintEditVC_Constant.m in Sources */,
 				5D8B08641B4AF32A003B3560 /* FileMgConstant.m in Sources */,
 				5D8B08361B4AE8A4003B3560 /* RootViewController.m in Sources */,
 				5D8B08671B4AF32A003B3560 /* EPFileManager.m in Sources */,
@@ -395,12 +412,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/ZJ/ZJ/Prefix.pch;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJ/Prefix.pch";
 				INFOPLIST_FILE = ZJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZJ.Doc.ZJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,12 +428,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /Users/xushouyang/Desktop/ZJ/ZJ/Prefix.pch;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJ/Prefix.pch";
 				INFOPLIST_FILE = ZJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZJ.Doc.ZJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
