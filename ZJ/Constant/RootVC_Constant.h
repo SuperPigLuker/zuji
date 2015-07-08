@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const RootVC_Title;
-extern NSString *const RootVC_CopyButtonTitle;
+extern NSString *const rootVC_Title;
+extern NSString *const rootVC_CopyButtonTitle;
 
 @interface RootVC_Constant : NSObject
 

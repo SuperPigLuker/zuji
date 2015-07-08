@@ -8,8 +8,8 @@
 
 #import "RootVC_Constant.h"
 
-NSString *const RootVC_Title           = @"Root";
-NSString *const RootVC_CopyButtonTitle = @"copy";
+NSString *const rootVC_Title           = @"Root";
+NSString *const rootVC_CopyButtonTitle = @"copy";
 
 @implementation RootVC_Constant
 

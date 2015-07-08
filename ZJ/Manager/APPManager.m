@@ -8,7 +8,6 @@
 
 #import "APPManager.h"
 #import "AppDelegate.h"
-#import "RDVTabBarController.h"
 
 @implementation APPManager
 
@@ -23,10 +22,24 @@
     return _sharedInstance;
 }
 
-- (UIViewController *)rootViewController {
++ (UIViewController *)rootViewController {
     AppDelegate *del = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    RDVTabBarController *tab = (RDVTabBarController *)del.window.rootViewController;
+    UIViewController *tab = del.window.rootViewController;
     return tab;
+}
+
++ (CGRect)screenBounds {
+    return [UIScreen mainScreen].bounds;
+}
+
++ (CGFloat)screenWidth {
+    CGRect bounds = [self screenBounds];
+    return bounds.size.width;
+}
+
++ (CGFloat)screenHeight {
+    CGRect bounds = [self screenBounds];
+    return bounds.size.height;
 }
 
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-extern NSString *const FootPrintEditVC_Title;
+
+extern NSString *const footPrintEditVC_Title;
+extern NSString *footPrintEditCell;
+extern NSString *const footPrintEditCellNib;
+
 @interface FootPrintEditVC_Constant : NSObject
 
 @end

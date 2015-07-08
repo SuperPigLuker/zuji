@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = RootVC_Title;
+    self.title = rootVC_Title;
     [self setRightBarButtonItem];
     [self defaultSetting];
 }

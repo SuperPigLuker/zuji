@@ -7,7 +7,11 @@
 //
 
 #import "FootPrintEditVC_Constant.h"
-NSString *const FootPrintEditVC_Title = @"FootPringEdit";
+
+NSString *const footPrintEditVC_Title = @"FootPringEdit";
+NSString *footPrintEditCell = @"FootPrintEditCell";
+NSString *const footPrintEditCellNib = @"FootPrintEditCell";
+
 @implementation FootPrintEditVC_Constant
 
 @end

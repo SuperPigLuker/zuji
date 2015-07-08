@@ -22,7 +22,7 @@
 - (void)hidTabBar:(id)sender {
     UIButton *aButton = (UIButton *)sender;
     aButton.selected = !aButton.selected;
-    RDVTabBarController *tab = (RDVTabBarController *)[[APPManager sharedInstance] rootViewController];
+    RDVTabBarController *tab = (RDVTabBarController *)[APPManager rootViewController];
     if (aButton.selected) {
         [tab setTabBarHidden:YES animated:YES];
     }else {

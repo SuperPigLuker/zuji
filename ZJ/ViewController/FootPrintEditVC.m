@@ -10,6 +10,7 @@
 #import "FootPrintEditVC_Constant.h"
 
 @interface FootPrintEditVC ()
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
@@ -26,8 +27,8 @@
 
 - (void)defaultSetting {
     self.navigationController.navigationBar.hidden = NO;
-    self.title = FootPrintEditVC_Title;
-    
+    self.title = footPrintEditVC_Title;
+    [self.collectionView registerNib:[UINib nibWithNibName:footPrintEditCellNib bundle:nil] forCellWithReuseIdentifier:footPrintEditCell];
 }
 
 @end

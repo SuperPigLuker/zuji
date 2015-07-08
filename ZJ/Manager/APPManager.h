@@ -12,6 +12,9 @@
 @interface APPManager : NSObject
 
 + (instancetype)sharedInstance;
-- (UIViewController *)rootViewController;
++ (UIViewController *)rootViewController;
++ (CGRect)screenBounds;
++ (CGFloat)screenWidth;
++ (CGFloat)screenHeight;
 
 @end
